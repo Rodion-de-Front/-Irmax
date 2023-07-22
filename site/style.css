@@ -373,7 +373,7 @@ html {
 
 .about-contact {
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -424,7 +424,7 @@ html {
 .contact-form input {
     outline: none;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: transparent;
     border-left: none;
     border-top: none;
     border-right: none;
@@ -439,7 +439,7 @@ html {
 .contact-form textarea {
     outline: none;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: transparent;
     border-left: none;
     border-top: none;
     border-right: none;
@@ -457,6 +457,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #ffd014;
+    border: none;
     color: #1a1a1a;
     font-size: 16px;
     font-weight: 700;
@@ -497,7 +498,7 @@ i {
     text-align: center;
     width: 45px;
     height: 45px;
-    background: #f2f2f2;
+    background: #fff;
     box-shadow: 0 5px 15px -5px #aaa;
     border-radius: 30%;
     overflow: hidden;
