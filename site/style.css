@@ -779,6 +779,7 @@ i {
 
     .form-btn {
         width: auto;
+        background-color: red;
     }
 
 }
