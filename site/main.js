@@ -44,7 +44,7 @@ function toggleMenu() {
 
 console.log(window.innerWidth)
 
-if (window.innerWidth > 800) {
+if (window.innerWidth < 800) {
     document.querySelector('#navigation').innerHTML = `
         <img id="lines" src="img/lines.png" onclick="toggleMenu()">
         <div id="sidebar">
