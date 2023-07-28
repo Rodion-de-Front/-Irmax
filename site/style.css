@@ -642,7 +642,7 @@ i {
     }
 
     .about-advantages {
-        height: 200vh;
+        height: 150vh;
         display: block;
     }
 
@@ -680,7 +680,7 @@ i {
     }
 
     .about-work {
-        height: 70vh;
+        height: 150vh;
         display: block;
     }
 
@@ -715,7 +715,7 @@ i {
     }
 
     .about-servises {
-        height: 300vh;
+        height: 350vh;
         box-sizing: border-box;
         padding: 35px 0;
     }
@@ -779,7 +779,6 @@ i {
 
     .form-btn {
         width: auto;
-        background-color: red;
     }
 
 }
