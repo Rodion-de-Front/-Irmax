@@ -642,6 +642,7 @@ i {
     }
 
     .about-advantages {
+        height: auto;
         display: block;
     }
 
@@ -679,6 +680,7 @@ i {
     }
 
     .about-work {
+        height: auto;
         display: block;
     }
 
