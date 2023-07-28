@@ -33,3 +33,44 @@ function sendMessage() {
 
     }
 }
+
+//функция чтобы открыть и спрятать меню
+function toggleMenu() {
+
+    document.getElementById('sidebar').classList.toggle('sidebar-active')
+    document.getElementById('lines').classList.toggle('lines-active');
+    document.querySelector('body').classList.toggle('opacity');
+}
+
+console.log(window.innerWidth)
+
+if (window.innerWidth > 800) {
+    document.querySelector('#navigation').innerHTML = `
+        <img id="lines" src="img/lines.png" onclick="toggleMenu()">
+        <div id="sidebar">
+            <div class="item">
+                <img src="img/home.png"/>
+                <a class="nav-item" href="#Home" onclick="toggleMenu()">Home</a>
+            </div>
+            <div class="item">
+                <img src="img/about.png"/>
+                <a class="nav-item" href="#About" onclick="toggleMenu()">About</a>
+            </div>
+            <div class="item">
+                <img src="img/services.png"/>
+                <a class="nav-item" href="#Advantages" onclick="toggleMenu()">Advantages</a>
+            </div>
+            <div class="item">
+                <img src="img/projects.png"/>
+                <a class="nav-item" href="#Work" onclick="toggleMenu()">Work</a>
+            </div>
+            <div class="item">
+                <img src="img/clients.png"/>
+                <a class="nav-item" href="#Services" onclick="toggleMenu()">Services</a>
+            </div>
+            <div class="item">
+                <img src="img/contacts.png"/>
+                <a class="nav-item" href="#Contact" onclick="toggleMenu()">Contact</a>
+            </div>
+        </div>`;
+}

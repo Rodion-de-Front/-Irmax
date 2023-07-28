@@ -550,3 +550,233 @@ i {
         left: -10%;
     }
 }
+
+#sidebar {
+    position: fixed;
+    width: 300px;
+    top:0;
+    bottom: 0;
+    left: -350px;
+    background-color: #1a1a1a;
+    transition: all 0.3s;
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: 200;
+}
+
+  #lines {
+    z-index: 201;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffd014;
+    border-radius: 50%;
+}
+
+.item {
+    position: relative;
+    top: 80px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.item img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+  .sidebar-active {
+    left: 0px !important;
+}
+
+@media (max-width: 800px) {
+
+    .home-block {
+        text-align: center;
+    }
+
+    .company-title {
+        font-size: 28px;
+    }
+
+    .company-description {
+        font-size: 17px;
+    }
+
+    @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        20% {opacity:1;width:0px;}
+        30% {width:180px;}
+        80% {opacity:1;}
+        100% {opacity:0;width:180px;}
+    }
+
+    .home-btn {
+        width: 190px;
+        height: 45px;
+        margin-right: 20px;
+    }
+
+    .about-name {
+        font-size: 25px;
+    }
+
+    .about-text {
+        font-size: 20px;
+        width: auto;
+        line-height: 1.65;
+    }
+
+    .about-advantages {
+        display: block;
+    }
+
+    .advantages-block {
+        width: auto;
+        box-sizing: border-box;
+        padding: 35px 0;
+    }
+
+    .advantages-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .advantages-content {
+        flex-direction: column-reverse;
+    }
+
+    .advantages-cards {
+        width: 100%;
+        margin-right: auto;
+        box-sizing: border-box;
+        padding: 0 25px;
+        margin-bottom: 20px;
+    }
+
+    .advantages-card img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .advantages-pic img {
+        width: 370px;
+        height: 300px;
+    }
+
+    .about-work {
+        display: block;
+    }
+
+    .work-block {
+        width: auto;
+        padding: 35px 0;
+    }
+
+    .work-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .work-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .work-card {
+        margin-right: 0;
+    }
+
+    .work-card-text-title {
+        font-size: 22px;
+    }
+
+    .work-card-number {
+        width: 40px;
+        height: 40px;
+    }
+
+    .about-servises {
+        height: auto;
+        box-sizing: border-box;
+        padding: 35px 0;
+    }
+
+    .services-title {
+        font-size: 28px;
+    }
+
+    .services-description {
+        font-size: 18px;
+        max-width: 360px;
+        margin-bottom: 45px;
+    }
+
+    .services-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .contact-block {
+        width: auto;
+    }
+
+    .about-contact {
+        flex-direction: column;
+    }
+
+    .about-contact-title {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-links {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .email {
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .contact-form input {
+        width: 250px;
+    }
+
+    .contact-form textarea {
+        width: 250px;
+    }
+
+    .form-btn {
+        width: auto;
+    }
+
+}
