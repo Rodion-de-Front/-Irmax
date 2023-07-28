@@ -642,7 +642,7 @@ i {
     }
 
     .about-advantages {
-        height: 150vh;
+        height: 100vh;
         display: block;
     }
 
@@ -680,7 +680,7 @@ i {
     }
 
     .about-work {
-        height: 150vh;
+        height: 70vh;
         display: block;
     }
 
@@ -715,13 +715,13 @@ i {
     }
 
     .about-servises {
-        height: 150vh;
+        height: 260vh;
         box-sizing: border-box;
         padding: 35px 0;
     }
 
     .services-title {
-        font-size: 28px;
+        font-size: 27px;
     }
 
     .services-description {
